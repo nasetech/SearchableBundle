@@ -1,0 +1,21 @@
+{
+  "name": "nasetech/searchable-bundle",
+  "description": "Make repository searchable",
+  "keywords": ["util"],
+  "type": "symfony-bundle",
+  "authors": [
+  {
+     "name": "Nasetech Searchable Bundle",
+     "homepage": "https://github.com/nasetech/SearchableBundle"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "doctrine/orm": "^2.5",
+    "doctrine/doctrine-bundle": "^1.6",
+    "doctrine/doctrine-cache-bundle": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {"Nasetech\\SearchableBundle\\": ""}
+  }
+}
